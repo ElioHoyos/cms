@@ -8,3 +8,4 @@ Route::get('/', function () {
 //Rutas del proyecto
 Route::get('/login', 'ConnectController@getLogin');
 
+Route::get('/register', 'ConnectController@getRegister');
