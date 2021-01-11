@@ -6,7 +6,7 @@
 
 	<div class="box box_register shadow">
 		<div class="header">
-			<a href="{{ url('') }}">
+			<a href="{{ url('/') }}">
 				<img src="{{ url('/static/images/logo.png') }}" alt="">
 			</a>
 		</div>

@@ -6,6 +6,7 @@ Route::get('/', function () {
 });
 
 //Rutas del proyecto
-Route::get('/login', 'ConnectController@getLogin');
+Route::get('/login', 'ConnectController@getLogin')->name('login');
+Route::get('/register', 'ConnectController@getRegister')->name('register');
 
-Route::get('/register', 'ConnectController@getRegister');
+// Route::post('/register', 'ConnectController@postRegister')->name('register');

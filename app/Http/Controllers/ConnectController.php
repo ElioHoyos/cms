@@ -15,5 +15,11 @@ class ConnectController extends Controller
     {
     	return view('connect.register');
     }
+
+    public function postRegister()
+    {
+    	
+    }
+
 }
 
